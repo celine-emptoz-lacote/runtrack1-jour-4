@@ -1,0 +1,418 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    text-align: center;
+    background-color: rgb(253, 224, 162);
+}
+
+.logo1 {
+    width: 20%;  
+}
+
+.NavHeader {
+    background-color: #ffca4b;
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.NavHeader a {
+    text-decoration: none;
+    color: #275fa0;
+    font-weight: bold;
+    padding: 10px;
+
+}
+
+.NavHeader a:hover {
+    background-color: #275fa0;
+    color: #ffca4b;
+    padding: 10px;
+    
+}
+
+main{
+    text-align: center;
+    
+}
+section {
+    margin-top: 10px;
+}
+
+.presentation {
+    background-color: #88c1d0;
+    width: 80%;
+    margin: 10px auto 0;
+    padding: 5px;
+}
+
+.presentation p {
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+
+h1 {
+   color: #275fa0;
+}
+
+.NavMain {
+    background-color: #275fa0;
+    width: 50%;
+    margin: auto;
+    /*padding: 10px;*/
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.NavMain a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    
+}
+
+
+
+.NavMain a:hover {
+    background-color:  #ffca4b;
+    color: #275fa0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+h2{
+    color: black;
+}
+
+.video {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+iframe {
+    width: 30%;
+    margin:13px auto;
+    padding: 6px;
+    background-color:#88c1d0;
+    border-radius: 8px;
+    box-shadow: 8px 8px 8px #aaa;
+}
+
+.DerniereVideo {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.article {
+    display: flex;
+    justify-content: center;
+    
+}
+article {
+    width: 30%;
+    padding: 15px;
+    margin: 5px;
+    background-color:  rgb(253, 224, 162);
+    border-radius: 0 30px;
+    
+    
+}
+
+#formations {
+    background-color:#88c1d0;
+    padding: 20px;
+    width: 70%;
+}
+
+h3 {
+    color: #275fa0;
+}
+
+.formation {
+    color: black;
+}
+
+#formations a {
+    text-decoration: none;
+    background-color: #275fa0;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+}
+
+.flex{
+    display: flex;
+}
+
+#job {
+    width: 25%;
+    background-color: rgb(253, 224, 162);
+    margin: 2px;
+    
+}
+
+.p1 {
+    padding: 10px;
+}
+
+#job div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#job div p {
+    width: 30%;
+    margin: 1px;
+    padding: 2px;
+    background-color:#88c1d0 ;
+    
+    
+}
+
+#job h3 {
+    color: black;
+}
+
+footer {
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.log {
+    width: 10%;
+}
+
+
+.pFooter {
+    background-color: rgb(253, 224, 162);
+    padding: 10px;
+}
+
+hr {
+    margin: 50px;
+    color: red;
+}
+.footer a {
+    text-decoration: none;
+    padding:18px;
+    background-color: #ffca4b;
+    color: black;
+    border-radius: 10px;
+}
+
+/* page qui sommes nous */
+
+.p2 {
+    text-align: left;
+}
+
+.equipe {
+    width: 50%;
+    margin-top: 50px;
+}
+
+.ecole1{
+    width: 40%;
+    margin: 10px auto;
+    box-shadow: 8px 8px 8px #aaa;
+}
+
+.ecole {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2px;
+}
+
+.aPage2{
+    text-decoration: none;
+    color: #88c1d0;
+}
+
+
+
+/*page coding school*/
+
+span {
+    color: rgb(128, 126, 126);
+}
+
+.eleve {
+    width: 50%;
+}
+
+.coding {
+    display: flex;
+    align-items: center;
+    background-color: #88c1d0;
+    margin-top: 2px;
+}
+
+.coding p {
+    padding: 30px;
+    text-align: left;
+}
+
+.coding2 {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    background-color: #88c1d0;
+    margin-top: 2px;
+    text-align: right;
+}
+
+.coding2 p {
+    padding: 30px;
+}
+
+.coding3 {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    background-color: #ffca4b;
+    margin-top: 2px;
+    text-align: right;
+}
+
+.coding3 p {
+    padding: 30px;
+}
+
+/*page digital lab*/
+
+ol {
+    width: 37%;
+    text-align: left;
+    margin: auto;
+}
+
+/*page executive*/
+
+.divExecutive {
+    display: flex;
+   
+}
+
+.imgExecutive{
+    width: 34%;
+}
+
+.pExecutive {
+    width: 30%;
+}
+
+/*page contact*/
+
+.contact {
+    display:flex;
+    align-items: center;
+    background-color:#88c1d0;
+    padding: 10px;
+}
+
+form {
+    width: 50%;
+    
+}
+
+select {
+    display: block;
+    width: 82%;
+    height: 40px;
+    margin: 3px auto;
+    border: 1px solid #275fa0;
+    color: #275fa0;
+    
+
+}
+input {
+    display: inline-block;
+    height: 40px;
+    width: 85%;
+    margin: 3px auto;
+    border: 1px solid #275fa0;
+    
+}
+.largeur {
+    width: 40%;
+}
+
+.largeur2 {
+    width: 82%;
+}
+
+textarea {
+    width: 85%;
+    margin: auto;
+    border: 1px solid #275fa0;
+    color: #275fa0;
+}
+
+
+button {
+    display: block;
+    margin: auto;
+}
+
+input::placeholder {
+    color: #275fa0;
+}
+
+input:hover {
+    background-color: #ffca4b;
+}
+
+textarea:hover {
+    background-color: #ffca4b;
+}
+select:hover{
+    background-color: #ffca4b;
+}
+
+button {
+    background-color: #275fa0;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+button:hover {
+    background-color: #ffca4b;
+}
+
+.titreH2 {
+    color: white;
+}
+
+.listeContact {
+    text-align: left;
+}
+
+.footerA {
+    text-decoration: none;
+    padding: 18px;
+    background-color: #ffca4b;
+    color: black;
+    border-radius: 10px;
+}
+
+.contactFooter {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
